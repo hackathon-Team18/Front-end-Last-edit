@@ -34,7 +34,8 @@
         <div class="input-container">
             <div class="input-group">
                 <label for="math-input">📝 Original Math Problem</label>
-                <input type="text" id="math-input" placeholder="Paste your math word problem here... (e.g., 'Sarah has 24 apples. She gives 8 apples to her friend. How many apples does she have left?')" value="">
+                <textarea type="text" id="math-input" placeholder="Paste your math word problem here... (e.g., 'Sarah has 24 apples. She gives 8 apples to her friend. How many apples does she have left?')" value=""></textarea>
+                <!-- <input type="text" id="math-input" placeholder="Paste your math word problem here... (e.g., 'Sarah has 24 apples. She gives 8 apples to her friend. How many apples does she have left?')" value=""> -->
             </div>
             <div class="input-group">
                 <label for="theme">🌟 Select a Theme</label>
@@ -74,8 +75,8 @@
                 </div>
             </div>
             <div class="action-buttons" id="action-buttons">
-                <button id="copy-btn" class="action-btn">📋 Copy Problem</button>
-                <button id="try-again-btn" class="action-btn">↺ Try Different Theme</button>
+                <button id="copy-btn" class="action-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy w-5 h-5 btn-logo" data-lov-id="src/components/ResultPanel.tsx:111:14" data-lov-name="Copy" data-component-path="src/components/ResultPanel.tsx" data-component-line="111" data-component-file="ResultPanel.tsx" data-component-name="Copy" data-component-content="%7B%22className%22%3A%22w-5%20h-5%22%7D"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg> Copy Problem</button>
+                <button id="try-again-btn" class="action-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-refresh-cw w-5 h-5 btn-logo" data-lov-id="src/components/ResultPanel.tsx:122:10" data-lov-name="RefreshCw" data-component-path="src/components/ResultPanel.tsx" data-component-line="122" data-component-file="ResultPanel.tsx" data-component-name="RefreshCw" data-component-content="%7B%22className%22%3A%22w-5%20h-5%22%7D"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"></path><path d="M21 3v5h-5"></path><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path><path d="M8 16H3v5"></path></svg>Try Different Theme</button>
             </div>
             <div id="success-message" class="success-message success-bounce">
                 <i class="fas fa-sparkles"></i>
@@ -86,7 +87,7 @@
     </main>
 
     <footer>
-        <p class="footer-main"><span class="bounce-emoji bounce-emoji-1">🎯</span> Transform learning with personalized math problems <span class="bounce-emoji bounce-emoji-3">🚀</span></p>
+        <p class="footer-main"><span class="bounce-emoji bounce-emoji-2">🎯</span> Transform learning with personalized math problems <span class="bounce-emoji bounce-emoji-3">🚀</span></p>
         <p class="footer-text">Making mathematics meaningful, one problem at a time</p>
     </footer>
 
