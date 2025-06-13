@@ -9,11 +9,11 @@
 </head>
 <body>
     <div class="background-symbols">
-        <span>∑</span>
-        <span>π</span>
-        <span>∞</span>
-        <span>≠</span>
-        <span>√</span>
+        <span class="math-symbol-floating symbol-sum">∑</span>
+        <span class="math-symbol-floating symbol-pi">π</span>
+        <span class="math-symbol-floating symbol-infinity">∞</span>
+        <span class="math-symbol-floating symbol-sqrt">≠</span>
+        <span class="math-symbol-floating symbol-delta">∆</span>
     </div>
 
     <header>
@@ -26,7 +26,7 @@
         <p class="subtitle">Personalized Math Problem Rewriting</p>
         <p class="description">Transform standard math problems into engaging versions that match your interests <br> and passions ✨</p>
         <div class="tagline">
-            <span>📚</span> + <span>🎨</span> = <span>🚀</span> Learning Made Fun!
+            <span class="bounce-emoji bounce-emoji-1">📚</span> + <span class="bounce-emoji bounce-emoji-2">🎨</span> = <span class="bounce-emoji bounce-emoji-3">🚀</span> Learning Made Fun!
         </div>
     </header>
 
@@ -66,7 +66,7 @@
                     <div class="result-header">
                         <i class="fas fa-sparkles"></i>
                         <h2>Rewritten Problem</h2>
-                        <span id="problem-theme" class="tag"></span>
+                        <span id="problem-theme" class="theme-badge"></span>
                     </div>
                     <p class="result-text" id="rewritten-text"></p>
                 </div>
@@ -75,7 +75,7 @@
                 <button id="copy-btn" class="action-btn">📋 Copy Problem</button>
                 <button id="try-again-btn" class="action-btn">↺ Try Different Theme</button>
             </div>
-            <div id="success-message" class="success-message">
+            <div id="success-message" class="success-message success-bounce">
                 <i class="fas fa-sparkles"></i>
                 Success! Your math problem has been rewritten.
                 <button class="close-btn" onclick="document.getElementById('success-message').classList.remove('show');">x</button>
@@ -84,7 +84,7 @@
     </main>
 
     <footer>
-        <p class="footer-main">🎯 Transform learning with personalized math problems 🚀</p>
+        <p class="footer-main"><span class="bounce-emoji bounce-emoji-1">🎯</span> Transform learning with personalized math problems <span class="bounce-emoji bounce-emoji-2">🚀</span></p>
         <p class="footer-text">Making mathematics meaningful, one problem at a time</p>
     </footer>
 
